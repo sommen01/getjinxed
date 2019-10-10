@@ -1,0 +1,4 @@
+#Tue Jun 25 13:38:51 AMT 2019
+base.0=C\:\\Users\\Aluno\\Desktop\\Unjinxed\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex

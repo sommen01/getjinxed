@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Options">
+
+    <!--android:background="#f5f5f5"-->
+
+    <TextView
+        android:id="@+id/reset_database"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="@drawable/border_bottom"
+        android:gravity="center_vertical"
+        android:text="Hard Reset (Dev Only)"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_data" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Opções"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/update_menu"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/border_bottom"
+        android:gravity="center_vertical"
+        android:text="Atualizar Cardápio"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/update_tables"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="@drawable/border_bottom"
+        android:gravity="center_vertical"
+        android:text="Quantidade de Mesas"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_menu" />
+
+    <TextView
+        android:id="@+id/update_data"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="@drawable/border_bottom"
+        android:gravity="center_vertical"
+        android:text="Atualizar Dados Pessoais"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_tables" />
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="Retornar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--<Switch-->
+        <!--android:id="@+id/switch1"-->
+        <!--android:layout_width="350dp"-->
+        <!--android:layout_height="45dp"-->
+        <!--android:background="@drawable/border_bottom"-->
+        <!--android:text="Dark Mode"-->
+        <!--android:textOn="asd"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/update_data" />-->
+
+
+</android.support.constraint.ConstraintLayout>
